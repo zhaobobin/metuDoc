@@ -12,17 +12,20 @@
 
 ## 指南
 
-- 区块
-
-  * [用户登录](/blocks/login.md)
-
-  * [用户注册](/blocks/register.md)
-
-- 组件
-
-- [工具](/doc/utils)
-
-- [模型](/doc/model)
+- [区块](block/README.md)
+  - [用户登录](block/User/UserLogin.md)
+  - [用户注册](block/User/UserRegister.md)
+  - [找回密码](block/User/PsdReset.md)
+- [组件](components/README.md)
+  - [表单](components/Form/README.md)
+    - [InputText](components/Form/InputText.md)
+    - [InputMobile](components/Form/InputMobile.md)
+    - [InputPassword](components/Form/InputPassword.md)
+    - [InputSmscode](components/Form/InputSmscode.md)
+    - [InputEmail](components/Form/InputEmail.md)
+    - [InputCaptcha](components/Form/InputCaptcha.md)
+- [模型](model/README.md)
+- [工具](utils/README.md)
 
 
 ## 结构
@@ -56,7 +59,7 @@
 
   .webpackrc                    自动化配置
 
-  ```
+```
 
 
 ## 配置

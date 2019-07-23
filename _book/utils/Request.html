@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>区块 · GitBook</title>
+        <title>Request · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -49,8 +49,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="Storage.html" />
     
-    <link rel="prev" href="../Safe/Scope.html" />
+    
+    <link rel="prev" href="Validator.html" />
     
 
     </head>
@@ -150,9 +152,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="./">
+        <li class="chapter " data-level="1.3" data-path="../block/">
             
-                <a href="./">
+                <a href="../block/">
             
                     
                     区块
@@ -178,9 +180,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1.1" data-path="User/UserLogin.html">
+        <li class="chapter " data-level="1.3.1.1" data-path="../block/User/UserLogin.html">
             
-                <a href="User/UserLogin.html">
+                <a href="../block/User/UserLogin.html">
             
                     
                     用户登录
@@ -191,9 +193,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.1.2" data-path="User/UserRegister.html">
+        <li class="chapter " data-level="1.3.1.2" data-path="../block/User/UserRegister.html">
             
-                <a href="User/UserRegister.html">
+                <a href="../block/User/UserRegister.html">
             
                     
                     用户注册
@@ -204,9 +206,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.1.3" data-path="User/PsdReset.html">
+        <li class="chapter " data-level="1.3.1.3" data-path="../block/User/PsdReset.html">
             
-                <a href="User/PsdReset.html">
+                <a href="../block/User/PsdReset.html">
             
                     
                     找回密码
@@ -543,9 +545,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="../utils/">
+        <li class="chapter " data-level="1.6" data-path="./">
             
-                <a href="../utils/">
+                <a href="./">
             
                     
                     工具
@@ -557,9 +559,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.6.1" data-path="../utils/Crypto.html">
+        <li class="chapter " data-level="1.6.1" data-path="Crypto.html">
             
-                <a href="../utils/Crypto.html">
+                <a href="Crypto.html">
             
                     
                     Crypto
@@ -570,9 +572,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.2" data-path="../utils/Validator.html">
+        <li class="chapter " data-level="1.6.2" data-path="Validator.html">
             
-                <a href="../utils/Validator.html">
+                <a href="Validator.html">
             
                     
                     Validator
@@ -583,9 +585,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.3" data-path="../utils/Request.html">
+        <li class="chapter active" data-level="1.6.3" data-path="Request.html">
             
-                <a href="../utils/Request.html">
+                <a href="Request.html">
             
                     
                     Request
@@ -596,9 +598,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.4" data-path="../utils/Storage.html">
+        <li class="chapter " data-level="1.6.4" data-path="Storage.html">
             
-                <a href="../utils/Storage.html">
+                <a href="Storage.html">
             
                     
                     Storage
@@ -644,7 +646,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >区块</a>
+        <a href=".." >Request</a>
     </h1>
 </div>
 
@@ -659,8 +661,112 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x533A;&#x5757;">&#x533A;&#x5757;</h1>
-<p>&#x533A;&#x5757;&#x662F;&#x6307;&#x9875;&#x9762;&#x7EA7;&#x522B;&#x7684;&#x53EF;&#x590D;&#x7528;&#x7684;&#x4EE3;&#x7801;&#x3002;metu &#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x4E2A;&#x533A;&#x5757;&#x7684;&#x89C4;&#x8303;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; metu &#x80FD;&#x591F;&#x5FEB;&#x901F;&#x7B80;&#x5355;&#x7684;&#x5728;&#x4F60;&#x7684;&#x9879;&#x76EE;&#x4E2D;&#x6DFB;&#x52A0;&#x533A;&#x5757;&#xFF0C;&#x7528;&#x4E8E;&#x5FEB;&#x901F;&#x7684;&#x5F00;&#x59CB;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x7684;&#x5F00;&#x53D1;&#x3002;</p>
+                                <h1 id="&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;-request">&#x7F51;&#x7EDC;&#x8BF7;&#x6C42; Request</h1>
+<h4 id="code">code</h4>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> fetch <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;dva/fetch&apos;</span>;
+<span class="hljs-keyword">import</span> { notification } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;antd&apos;</span>;
+<span class="hljs-keyword">import</span> { Base64 } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;js-base64&apos;</span>;
+<span class="hljs-keyword">import</span> { Storage } <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;@/utils/utils&apos;</span>;
+<span class="hljs-keyword">import</span> ENV <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;@/config/env&apos;</span>
+
+<span class="hljs-keyword">const</span> codeMessage = {
+  <span class="hljs-number">200</span>: <span class="hljs-string">&apos;&#x8BF7;&#x6C42;&#x6210;&#x529F;&apos;</span>,
+
+  <span class="hljs-number">400</span>: <span class="hljs-string">&apos;&#x8BF7;&#x6C42;&#x5931;&#x8D25;&apos;</span>,
+  <span class="hljs-number">401</span>: <span class="hljs-string">&apos;&#x7528;&#x6237;&#x672A;&#x767B;&#x5F55;&apos;</span>,
+  <span class="hljs-number">402</span>: <span class="hljs-string">&apos;&#x7528;&#x6237;&#x4E0D;&#x5B58;&#x5728;&apos;</span>,
+  <span class="hljs-number">403</span>: <span class="hljs-string">&apos;&#x7528;&#x6237;&#x5BC6;&#x7801;&#x9519;&#x8BEF;&apos;</span>,
+  <span class="hljs-number">404</span>: <span class="hljs-string">&apos;&#x56FE;&#x5F62;&#x9A8C;&#x8BC1;&#x7801;&#x9519;&#x8BEF;&apos;</span>,
+  <span class="hljs-number">405</span>: <span class="hljs-string">&apos;&#x77ED;&#x4FE1;&#x9A8C;&#x8BC1;&#x7801;&#x9519;&#x8BEF;&apos;</span>,
+
+  <span class="hljs-number">410</span>: <span class="hljs-string">&apos;&#x624B;&#x673A;&#x53F7;&#x5DF2;&#x6CE8;&#x518C;&apos;</span>,
+  <span class="hljs-number">411</span>: <span class="hljs-string">&apos;&#x7528;&#x6237;&#x540D;&#x5DF2;&#x6CE8;&#x518C;&apos;</span>,
+  <span class="hljs-number">412</span>: <span class="hljs-string">&apos;&#x90AE;&#x7BB1;&#x5DF2;&#x6CE8;&#x518C;&apos;</span>,
+
+  <span class="hljs-number">420</span>: <span class="hljs-string">&apos;&#x65E0;&#x6743;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&apos;</span>,
+
+  <span class="hljs-number">500</span>: <span class="hljs-string">&apos;&#x670D;&#x52A1;&#x5668;&#x53D1;&#x751F;&#x9519;&#x8BEF;&#xFF0C;&#x8BF7;&#x68C0;&#x67E5;&#x670D;&#x52A1;&#x5668;&apos;</span>,
+  <span class="hljs-number">502</span>: <span class="hljs-string">&apos;&#x7F51;&#x5173;&#x9519;&#x8BEF;&apos;</span>,
+  <span class="hljs-number">503</span>: <span class="hljs-string">&apos;&#x670D;&#x52A1;&#x4E0D;&#x53EF;&#x7528;&#xFF0C;&#x670D;&#x52A1;&#x5668;&#x6682;&#x65F6;&#x8FC7;&#x8F7D;&#x6216;&#x7EF4;&#x62A4;&apos;</span>,
+  <span class="hljs-number">504</span>: <span class="hljs-string">&apos;&#x7F51;&#x5173;&#x8D85;&#x65F6;&apos;</span>,
+};
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">checkStatus</span>(<span class="hljs-params">response</span>) </span>{
+  <span class="hljs-keyword">if</span> (response.status &gt;= <span class="hljs-number">200</span> &amp;&amp; response.status &lt; <span class="hljs-number">300</span>) {
+    <span class="hljs-keyword">return</span> response;
+  }
+
+  <span class="hljs-keyword">const</span> errortext = codeMessage[response.status] || response.statusText;
+  notification.error({
+    message: <span class="hljs-string">&apos;&#x8BF7;&#x6C42;&#x9519;&#x8BEF;&apos;</span> + response.status,
+    description: errortext,
+  });
+
+  <span class="hljs-keyword">const</span> error = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Error</span>(response.statusText);
+  error.name = response.status;
+  error.response = response;
+  <span class="hljs-keyword">throw</span> error;
+}
+
+<span class="hljs-comment">/**
+ * Requests a URL, returning a promise.
+ *
+ * @param  {string} url       The URL we want to request
+ * @param  {object} [options] The options we want to pass to &quot;fetch&quot;
+ * @return {object}           An object containing either &quot;data&quot; or &quot;err&quot;
+ */</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">request</span>(<span class="hljs-params">url, options</span>) </span>{
+
+  <span class="hljs-keyword">const</span> defaultOptions = {
+    credentials: <span class="hljs-string">&apos;include&apos;</span>,
+  };
+
+  <span class="hljs-keyword">const</span> newOptions = { ...defaultOptions, ...options };
+  <span class="hljs-keyword">if</span> (newOptions.method === <span class="hljs-string">&apos;POST&apos;</span> || newOptions.method === <span class="hljs-string">&apos;PUT&apos;</span>) {
+    newOptions.headers = {
+      <span class="hljs-string">&apos;Accept&apos;</span>: <span class="hljs-string">&apos;application/json&apos;</span>,
+      <span class="hljs-string">&apos;Content-Type&apos;</span>: <span class="hljs-string">&apos;application/json; charset=utf-8&apos;</span>,
+      ...newOptions.headers,
+    };
+    newOptions.body = <span class="hljs-built_in">JSON</span>.stringify(newOptions.body);
+    <span class="hljs-comment">//HttpBasicAuth</span>
+    <span class="hljs-keyword">if</span>(Storage.get(ENV.storageToken)) {
+      newOptions.headers[<span class="hljs-string">&apos;Authorization&apos;</span>] = <span class="hljs-string">&apos;Basic &apos;</span> + Base64.encode(Storage.get(ENV.storageToken) + <span class="hljs-string">&apos;:&apos;</span>)      <span class="hljs-comment">//&#x8BFB;&#x53D6;&#x672C;&#x5730;token</span>
+    }
+  }
+
+  <span class="hljs-keyword">return</span> fetch(url, newOptions)
+    .then(checkStatus)
+    .then(response =&gt; response.json())
+    .catch(error =&gt; {
+      <span class="hljs-keyword">if</span> (error.code) {
+        notification.error({
+          message: error.name,
+          description: error.message,
+        });
+      }
+      <span class="hljs-keyword">if</span> (<span class="hljs-string">&apos;stack&apos;</span> <span class="hljs-keyword">in</span> error &amp;&amp; <span class="hljs-string">&apos;message&apos;</span> <span class="hljs-keyword">in</span> error) {
+        notification.error({
+          message: <span class="hljs-string">`&#x8BF7;&#x6C42;&#x9519;&#x8BEF;: <span class="hljs-subst">${url}</span>`</span>,
+          description: error.message,
+        });
+      }
+      <span class="hljs-keyword">return</span> error;
+    });
+}
+
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">FetchGet</span>(<span class="hljs-params">url</span>)</span>{
+  <span class="hljs-keyword">let</span> option = {
+    method: <span class="hljs-string">&apos;GET&apos;</span>,
+    headers: {<span class="hljs-string">&apos;Content-Type&apos;</span>: <span class="hljs-string">&apos;application/json&apos;</span>}
+  };
+  <span class="hljs-keyword">return</span> fetch(url, option)
+    .then(response =&gt; response.json())
+    .catch((error) =&gt; {
+      <span class="hljs-keyword">return</span> error;
+    });
+}
+</code></pre>
 
                                 
                                 </section>
@@ -688,10 +794,14 @@
 
             
                 
-                <a href="../Safe/Scope.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 角色鉴权">
+                <a href="Validator.html" class="navigation navigation-prev " aria-label="Previous page: Validator">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="Storage.html" class="navigation navigation-next " aria-label="Next page: Storage">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -700,7 +810,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"区块","level":"1.3","depth":1,"next":{"title":"用户","level":"1.3.1","depth":2,"ref":"","articles":[{"title":"用户登录","level":"1.3.1.1","depth":3,"path":"block/User/UserLogin.md","ref":"block/User/UserLogin.md","articles":[]},{"title":"用户注册","level":"1.3.1.2","depth":3,"path":"block/User/UserRegister.md","ref":"block/User/UserRegister.md","articles":[]},{"title":"找回密码","level":"1.3.1.3","depth":3,"path":"block/User/PsdReset.md","ref":"block/User/PsdReset.md","articles":[]}]},"previous":{"title":"角色鉴权","level":"1.2.3","depth":2,"path":"Safe/Scope.md","ref":"Safe/Scope.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"./website.css"}},"file":{"path":"block/README.md","mtime":"2019-07-11T04:52:22.435Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-23T01:05:08.222Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Request","level":"1.6.3","depth":2,"next":{"title":"Storage","level":"1.6.4","depth":2,"path":"utils/Storage.md","ref":"utils/Storage.md","articles":[]},"previous":{"title":"Validator","level":"1.6.2","depth":2,"path":"utils/Validator.md","ref":"utils/Validator.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"./website.css"}},"file":{"path":"utils/Request.md","mtime":"2019-07-12T08:15:46.329Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-23T01:05:08.222Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

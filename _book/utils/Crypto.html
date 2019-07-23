@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>区块 · GitBook</title>
+        <title>Crypto · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -49,8 +49,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="Validator.html" />
     
-    <link rel="prev" href="../Safe/Scope.html" />
+    
+    <link rel="prev" href="./" />
     
 
     </head>
@@ -150,9 +152,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="./">
+        <li class="chapter " data-level="1.3" data-path="../block/">
             
-                <a href="./">
+                <a href="../block/">
             
                     
                     区块
@@ -178,9 +180,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.3.1.1" data-path="User/UserLogin.html">
+        <li class="chapter " data-level="1.3.1.1" data-path="../block/User/UserLogin.html">
             
-                <a href="User/UserLogin.html">
+                <a href="../block/User/UserLogin.html">
             
                     
                     用户登录
@@ -191,9 +193,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.1.2" data-path="User/UserRegister.html">
+        <li class="chapter " data-level="1.3.1.2" data-path="../block/User/UserRegister.html">
             
-                <a href="User/UserRegister.html">
+                <a href="../block/User/UserRegister.html">
             
                     
                     用户注册
@@ -204,9 +206,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.1.3" data-path="User/PsdReset.html">
+        <li class="chapter " data-level="1.3.1.3" data-path="../block/User/PsdReset.html">
             
-                <a href="User/PsdReset.html">
+                <a href="../block/User/PsdReset.html">
             
                     
                     找回密码
@@ -543,9 +545,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6" data-path="../utils/">
+        <li class="chapter " data-level="1.6" data-path="./">
             
-                <a href="../utils/">
+                <a href="./">
             
                     
                     工具
@@ -557,9 +559,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.6.1" data-path="../utils/Crypto.html">
+        <li class="chapter active" data-level="1.6.1" data-path="Crypto.html">
             
-                <a href="../utils/Crypto.html">
+                <a href="Crypto.html">
             
                     
                     Crypto
@@ -570,9 +572,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.2" data-path="../utils/Validator.html">
+        <li class="chapter " data-level="1.6.2" data-path="Validator.html">
             
-                <a href="../utils/Validator.html">
+                <a href="Validator.html">
             
                     
                     Validator
@@ -583,9 +585,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.3" data-path="../utils/Request.html">
+        <li class="chapter " data-level="1.6.3" data-path="Request.html">
             
-                <a href="../utils/Request.html">
+                <a href="Request.html">
             
                     
                     Request
@@ -596,9 +598,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.6.4" data-path="../utils/Storage.html">
+        <li class="chapter " data-level="1.6.4" data-path="Storage.html">
             
-                <a href="../utils/Storage.html">
+                <a href="Storage.html">
             
                     
                     Storage
@@ -644,7 +646,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >区块</a>
+        <a href=".." >Crypto</a>
     </h1>
 </div>
 
@@ -659,8 +661,70 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x533A;&#x5757;">&#x533A;&#x5757;</h1>
-<p>&#x533A;&#x5757;&#x662F;&#x6307;&#x9875;&#x9762;&#x7EA7;&#x522B;&#x7684;&#x53EF;&#x590D;&#x7528;&#x7684;&#x4EE3;&#x7801;&#x3002;metu &#x5B9A;&#x4E49;&#x4E86;&#x4E00;&#x4E2A;&#x533A;&#x5757;&#x7684;&#x89C4;&#x8303;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; metu &#x80FD;&#x591F;&#x5FEB;&#x901F;&#x7B80;&#x5355;&#x7684;&#x5728;&#x4F60;&#x7684;&#x9879;&#x76EE;&#x4E2D;&#x6DFB;&#x52A0;&#x533A;&#x5757;&#xFF0C;&#x7528;&#x4E8E;&#x5FEB;&#x901F;&#x7684;&#x5F00;&#x59CB;&#x4E00;&#x4E2A;&#x9875;&#x9762;&#x7684;&#x5F00;&#x53D1;&#x3002;</p>
+                                <h1 id="&#x52A0;&#x5BC6;-crypto">&#x52A0;&#x5BC6; Crypto</h1>
+<h4 id="&#x4F9D;&#x8D56;">&#x4F9D;&#x8D56;</h4>
+<pre><code class="lang-npm">npm i crypto-js --save
+</code></pre>
+<h4 id="&#x5BFC;&#x5165;">&#x5BFC;&#x5165;</h4>
+<pre><code class="lang-js"><span class="hljs-keyword">import</span> ENV <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;@/config/env&apos;</span>
+<span class="hljs-keyword">const</span> CryptoJS = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;crypto-js&apos;</span>);
+
+ENV.web &#x751F;&#x6210;&#x52A0;&#x5BC6;key&#x7684;&#x62FC;&#x63A5;&#x5B57;&#x7B26;&#x4E32;
+ENV.iv &#x751F;&#x6210;&#x52A0;&#x5BC6;&#x504F;&#x79FB;&#x91CF;&#x7684;&#x5B57;&#x7B26;&#x4E32;
+</code></pre>
+<h4 id="&#x52A0;&#x5BC6;">&#x52A0;&#x5BC6;</h4>
+<pre><code class="lang-js"><span class="hljs-comment">/**
+ * &#x52A0;&#x5BC6;&#x65B9;&#x6CD5;
+ * @param k
+ * @param text
+ * @returns {string}
+ * @constructor
+ */</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Encrypt</span>(<span class="hljs-params">k, text</span>)</span>{
+  <span class="hljs-keyword">const</span> DecryptKey = (k + ENV.web).substring(<span class="hljs-number">0</span>, <span class="hljs-number">16</span>);
+  <span class="hljs-keyword">const</span> key = CryptoJS.enc.Utf8.parse(DecryptKey);              <span class="hljs-comment">//&#x5341;&#x516D;&#x4F4D;&#x5341;&#x516D;&#x8FDB;&#x5236;&#x6570;&#x4F5C;&#x4E3A;&#x5BC6;&#x94A5;</span>
+  <span class="hljs-keyword">const</span> iv = CryptoJS.enc.Utf8.parse(ENV.iv);                   <span class="hljs-comment">//&#x5341;&#x516D;&#x4F4D;&#x5341;&#x516D;&#x8FDB;&#x5236;&#x6570;&#x4F5C;&#x4E3A;&#x5BC6;&#x94A5;&#x504F;&#x79FB;&#x91CF;</span>
+
+  <span class="hljs-keyword">let</span> encrypted = CryptoJS.AES.encrypt(
+    text.toString(),
+    key,
+    {
+      iv: iv,
+      mode: CryptoJS.mode.CBC,
+      padding: CryptoJS.pad.Pkcs7
+    }
+  );
+  <span class="hljs-keyword">return</span> encrypted.ciphertext.toString();
+}
+</code></pre>
+<h4 id="&#x89E3;&#x5BC6;">&#x89E3;&#x5BC6;</h4>
+<pre><code class="lang-js"><span class="hljs-comment">/**
+ * &#x89E3;&#x5BC6;&#x65B9;&#x6CD5;
+ * @param k
+ * @param text
+ * @returns {string}
+ * @constructor
+ */</span>
+<span class="hljs-keyword">export</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">Decrypt</span>(<span class="hljs-params">k, text</span>)</span>{
+  <span class="hljs-keyword">const</span> DecryptKey = (k + ENV.web).substring(<span class="hljs-number">0</span>, <span class="hljs-number">16</span>);
+  <span class="hljs-keyword">const</span> key = CryptoJS.enc.Utf8.parse(DecryptKey);               <span class="hljs-comment">//&#x5341;&#x516D;&#x4F4D;&#x5341;&#x516D;&#x8FDB;&#x5236;&#x6570;&#x4F5C;&#x4E3A;&#x5BC6;&#x94A5;</span>
+  <span class="hljs-keyword">const</span> iv = CryptoJS.enc.Utf8.parse(ENV.iv);                    <span class="hljs-comment">//&#x5341;&#x516D;&#x4F4D;&#x5341;&#x516D;&#x8FDB;&#x5236;&#x6570;&#x4F5C;&#x4E3A;&#x5BC6;&#x94A5;&#x504F;&#x79FB;&#x91CF;</span>
+
+  <span class="hljs-keyword">let</span> encryptedHexStr = CryptoJS.enc.Hex.parse(text);
+  <span class="hljs-keyword">let</span> srcs = CryptoJS.enc.Base64.stringify(encryptedHexStr);
+
+  <span class="hljs-keyword">let</span> decrypt = CryptoJS.AES.decrypt(
+    srcs,
+    key,
+    {
+      iv: iv,
+      mode: CryptoJS.mode.CBC,
+      padding: CryptoJS.pad.Pkcs7
+    }
+  );
+  <span class="hljs-keyword">return</span> decrypt.toString(CryptoJS.enc.Utf8);
+}
+</code></pre>
 
                                 
                                 </section>
@@ -688,10 +752,14 @@
 
             
                 
-                <a href="../Safe/Scope.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 角色鉴权">
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 工具">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="Validator.html" class="navigation navigation-next " aria-label="Next page: Validator">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -700,7 +768,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"区块","level":"1.3","depth":1,"next":{"title":"用户","level":"1.3.1","depth":2,"ref":"","articles":[{"title":"用户登录","level":"1.3.1.1","depth":3,"path":"block/User/UserLogin.md","ref":"block/User/UserLogin.md","articles":[]},{"title":"用户注册","level":"1.3.1.2","depth":3,"path":"block/User/UserRegister.md","ref":"block/User/UserRegister.md","articles":[]},{"title":"找回密码","level":"1.3.1.3","depth":3,"path":"block/User/PsdReset.md","ref":"block/User/PsdReset.md","articles":[]}]},"previous":{"title":"角色鉴权","level":"1.2.3","depth":2,"path":"Safe/Scope.md","ref":"Safe/Scope.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"./website.css"}},"file":{"path":"block/README.md","mtime":"2019-07-11T04:52:22.435Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-23T01:05:08.222Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Crypto","level":"1.6.1","depth":2,"next":{"title":"Validator","level":"1.6.2","depth":2,"path":"utils/Validator.md","ref":"utils/Validator.md","articles":[]},"previous":{"title":"工具","level":"1.6","depth":1,"path":"utils/README.md","ref":"utils/README.md","articles":[{"title":"Crypto","level":"1.6.1","depth":2,"path":"utils/Crypto.md","ref":"utils/Crypto.md","articles":[]},{"title":"Validator","level":"1.6.2","depth":2,"path":"utils/Validator.md","ref":"utils/Validator.md","articles":[]},{"title":"Request","level":"1.6.3","depth":2,"path":"utils/Request.md","ref":"utils/Request.md","articles":[]},{"title":"Storage","level":"1.6.4","depth":2,"path":"utils/Storage.md","ref":"utils/Storage.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"./website.css"}},"file":{"path":"utils/Crypto.md","mtime":"2019-07-12T08:15:16.525Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-23T01:05:08.222Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
