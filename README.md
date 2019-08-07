@@ -103,4 +103,10 @@
 }
 ```
 
+<!-- Gitbook 一键部署至 GitHub Pages -->
 
+<!-- 1. npm install g gh-pages -->
+
+<!-- 2. gitbook build -->
+
+<!-- 3. gh-pages -d _book -->
