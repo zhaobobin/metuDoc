@@ -5,32 +5,34 @@
   </a>
 </div>
 
-## 介绍
+## 
 
-迷图网(www.metuwang.com)，是一个致力于摄影分享、发现、售卖的专业平台，来自世界各地的摄影师是我们忠实的用户。让你与他人因图片相识，世界那么大，我想去看看。
-
-
-## 指南
-
-- [区块](block/README.md)
-  - [用户登录](block/User/UserLogin.md)
-  - [用户注册](block/User/UserRegister.md)
-  - [找回密码](block/User/PsdReset.md)
-- [组件](components/README.md)
-  - [表单](components/Form/README.md)
-    - [InputText](components/Form/InputText.md)
-    - [InputMobile](components/Form/InputMobile.md)
-    - [InputPassword](components/Form/InputPassword.md)
-    - [InputSmscode](components/Form/InputSmscode.md)
-    - [InputEmail](components/Form/InputEmail.md)
-    - [InputCaptcha](components/Form/InputCaptcha.md)
-- [模型](model/README.md)
-- [工具](utils/README.md)
+迷图网，是一个致力于摄影分享、发现、售卖的专业平台，来自世界各地的摄影师是我们忠实的用户。让你与他人因图片相识，世界那么大，我想去看看。
 
 
-## 结构
 
-```
+####指南
+
+- [逻辑](logic/README.md)
+  * [社区](logic/Community.md)
+  * [话题与标签](logic/Topic.md)
+  * [消息中心](logic/Message.md)
+- [容器](docker/README.md)
+- [服务端](server/README.md)
+  - [RESTful API](server/RESTful.md)
+  - [Jwt](server/Jwt.md)
+  - [HttpBasicAuth](server/HttpBasicAuth.md)
+  - [角色鉴权](server/Scope.md)
+  - [Mongodb](server/Mongodb.md)
+  - [Koa](server/Koa.md)
+  - [Egg](server/Egg.md)
+- [客户端](client/README.md)
+
+
+
+####目录
+
+```js
 
   dist                          打包目录
 
@@ -62,9 +64,10 @@
 ```
 
 
-## 配置
 
-```
+####配置
+
+```js
 {
 
   api: {
@@ -107,6 +110,8 @@
 
 <!-- 1. npm install g gh-pages -->
 
-<!-- 2. gitbook build -->
+<!-- 2. gitbook init -->
 
-<!-- 3. gh-pages -d _book -->
+<!-- 3. gitbook build -->
+
+<!-- 4. gh-pages -d _book -->

@@ -1,0 +1,22 @@
+{
+  "name": "metudoc",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">   <a href=\"https://www.metuwang.com/\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">     <img src=\"http://www.metuwang.com/favicon.png\" width=\"auto\" height=\"32px\" alt=\"去投网logo\" style=\" position: relative; right: 5px;top:6px;\" />     <strong style=\"color: #333; font-size: 28px; line-height: 32px;\">迷图网</strong>   </a> </div>",
+  "main": "index.js",
+  "scripts": {
+    "start": "gitbook serve",
+    "build": "gitbook build",
+    "push": "gh-pages -d _book",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaobobin/metuDoc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaobobin/metuDoc/issues"
+  },
+  "homepage": "https://github.com/zhaobobin/metuDoc#readme"
+}
