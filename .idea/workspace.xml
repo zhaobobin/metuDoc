@@ -1,129 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="784b896f-dc97-421b-a4e6-085cc8dc0bd0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Community.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Message.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/React Native/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Topic.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/.idea/dictionaries/zhaobobin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/.idea/metuDoc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/CNAME" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/Community.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/Message.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/React Native/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/Topic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/_config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/api/answer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/api/articles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/api/comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/api/common.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/api/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/api/photos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/api/question.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/api/topic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/api/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/block/Content/Article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/block/Content/Photo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/block/Publish/PublishArticle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/block/Publish/PublishPhoto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/block/User/PsdReset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/block/User/UserLogin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/block/User/UserRegister.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/block/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/client/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/components/Form/InputCaptcha.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/components/Form/InputEmail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/components/Form/InputMobile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/components/Form/InputPassword.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/components/Form/InputSmscode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/components/Form/InputText.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/components/Form/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/components/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/docker/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-highlight/ebook.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-highlight/website.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-lunr/lunr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-lunr/search-lunr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-search/lunr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-search/search-engine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-search/search.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-search/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/logic/Community.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/logic/Message.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/logic/Topic.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/logic/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/model/Article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/model/Cricle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/model/Photo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/model/Tag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/model/User.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/model/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/search_index.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/server/Egg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/server/HttpBasicAuth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/server/Jwt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/server/Koa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/server/Mongodb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/server/Next.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/server/Nginx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/server/PM2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/server/RESTful.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/server/Safe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/server/Scope.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/server/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/utils/Crypto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/utils/Request.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/utils/Storage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/utils/Validator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/utils/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/website.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_book/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/answer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/articles.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/comment.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/common.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/photos.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/question.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/topic.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/users.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logic/Community.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logic/Message.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logic/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logic/Topic.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/Egg.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/Koa.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/Mongodb.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/Next.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/Nginx.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/PM2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/Safe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SUMMARY.md" beforeDir="false" afterPath="$PROJECT_DIR$/SUMMARY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-sharing/buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/_book/gitbook/gitbook-plugin-sharing/buttons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/RESTful.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book.json" beforeDir="false" afterPath="$PROJECT_DIR$/book.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/HttpBasicAuth.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/HttpBasicAuth.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/Jwt.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/Jwt.md" afterDir="false" />
+    <list default="true" id="784b896f-dc97-421b-a4e6-085cc8dc0bd0" name="Default" comment="metuDoc">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_book/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Community.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Community.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Message.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/Topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/Topic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/api/answer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/api/answer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/api/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/api/articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/api/comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/api/comment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/api/common.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/api/common.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/api/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/api/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/api/photos.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/api/photos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/api/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/api/question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/api/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/api/topic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/api/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/api/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/block/Content/Article.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/block/Content/Article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/block/Content/Photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/block/Content/Photo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/block/Publish/PublishArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/block/Publish/PublishArticle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/block/Publish/PublishPhoto.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/block/Publish/PublishPhoto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/block/User/PsdReset.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/block/User/PsdReset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/block/User/UserLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/block/User/UserLogin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/block/User/UserRegister.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/block/User/UserRegister.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/block/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/block/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/components/Form/InputCaptcha.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/components/Form/InputCaptcha.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/components/Form/InputEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/components/Form/InputEmail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/components/Form/InputMobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/components/Form/InputMobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/components/Form/InputPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/components/Form/InputPassword.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/components/Form/InputSmscode.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/components/Form/InputSmscode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/components/Form/InputText.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/components/Form/InputText.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/components/Form/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/components/Form/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/components/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/components/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/docker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/docker/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/logic/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/logic/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/model/Article.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/model/Article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/model/Cricle.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/model/Cricle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/model/Photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/model/Photo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/model/Tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/model/Tag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/model/User.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/model/User.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/model/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/model/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/_book/search_index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/server/Egg.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/server/Egg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/server/HttpBasicAuth.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/server/HttpBasicAuth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/server/Jwt.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/server/Jwt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/server/Koa.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/server/Koa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/server/Mongodb.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/server/Mongodb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/server/Next.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/server/Next.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/server/Nginx.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/server/Nginx.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/server/PM2.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/server/PM2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/server/RESTful.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/server/RESTful.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/server/Safe.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/server/Safe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/server/Scope.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/server/Scope.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/server/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/server/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/utils/Crypto.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/utils/Crypto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/utils/Request.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/utils/Request.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/utils/Storage.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/utils/Storage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/utils/Validator.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/utils/Validator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_book/utils/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_book/utils/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/Egg.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/Egg.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/Nginx.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/Nginx.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/PM2.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/PM2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/RESTful.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/RESTful.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +172,15 @@
       <workItem from="1618752071456" duration="2685000" />
       <workItem from="1618892972858" duration="1404000" />
       <workItem from="1619156149361" duration="667000" />
-      <workItem from="1619259755086" duration="1385000" />
+      <workItem from="1619259755086" duration="1408000" />
+      <workItem from="1620898472629" duration="621000" />
+      <workItem from="1621316823704" duration="1846000" />
+      <workItem from="1621318761066" duration="460000" />
+      <workItem from="1621320984468" duration="73000" />
+      <workItem from="1630048928893" duration="2153000" />
+      <workItem from="1632276479802" duration="1859000" />
+      <workItem from="1632298477808" duration="612000" />
+      <workItem from="1632381315205" duration="732000" />
     </task>
     <task id="LOCAL-00001" summary="metuDoc">
       <created>1563843957198</created>
@@ -248,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565143192399</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="metuDoc">
+      <created>1619261148121</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619261148121</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,10 +217,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="metuDoc" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="456" y="201" width="767" height="606" key="find.popup" timestamp="1618753931227">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state x="456" y="198" width="767" height="606" key="find.popup" timestamp="1632279912308">
+      <screen x="0" y="23" width="1680" height="957" />
     </state>
-    <state x="456" y="201" width="767" height="606" key="find.popup/0.23.1680.963@0.23.1680.963" timestamp="1618753931227" />
+    <state x="456" y="198" width="767" height="606" key="find.popup/0.23.1680.957@0.23.1680.957" timestamp="1632279912308" />
   </component>
   <component name="masterDetails">
     <states>

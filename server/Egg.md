@@ -228,4 +228,5 @@ exports.destroy = async () => {};
 2、环境变量NODE_ENV重启后失效
    1) vim /etc/profile
    2) NODE_ENV=production
+   3) source /etc/profile
 

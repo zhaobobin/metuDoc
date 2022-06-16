@@ -17,6 +17,10 @@
     
             
                 
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -972,14 +976,14 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="eggjs"><a href="https://eggjs.org/zh-cn/index.html" target="_blank">Egg.js</a></h1>
-<h3 id="&#x5FEB;&#x901F;&#x5165;&#x95E8;">&#x5FEB;&#x901F;&#x5165;&#x95E8;</h3>
-<h4 id="&#x73AF;&#x5883;&#x51C6;&#x5907;">&#x73AF;&#x5883;&#x51C6;&#x5907;</h4>
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#eggjs"><b></b>Egg.js</a></li><ul><ul><li><span class="title-icon "></span><a href="#&#x5FEB;&#x901F;&#x5165;&#x95E8;"><b></b>&#x5FEB;&#x901F;&#x5165;&#x95E8;</a></li><li><span class="title-icon "></span><a href="#http"><b></b>HTTP</a></li></ul></ul></ul></div><a href="#eggjs" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="eggjs"><a name="eggjs" class="anchor-navigation-ex-anchor" href="#eggjs"><i class="fa fa-link" aria-hidden="true"></i></a><a href="https://eggjs.org/zh-cn/index.html" target="_blank">Egg.js</a></h1>
+<h3 id="&#x5FEB;&#x901F;&#x5165;&#x95E8;"><a name="&#x5FEB;&#x901F;&#x5165;&#x95E8;" class="anchor-navigation-ex-anchor" href="#&#x5FEB;&#x901F;&#x5165;&#x95E8;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5FEB;&#x901F;&#x5165;&#x95E8;</h3>
+<h4 id="&#x73AF;&#x5883;&#x51C6;&#x5907;"><a name="&#x73AF;&#x5883;&#x51C6;&#x5907;" class="anchor-navigation-ex-anchor" href="#&#x73AF;&#x5883;&#x51C6;&#x5907;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x73AF;&#x5883;&#x51C6;&#x5907;</h4>
 <ul>
 <li>&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF1A;&#x652F;&#x6301; macOS&#xFF0C;Linux&#xFF0C;Windows</li>
 <li>&#x8FD0;&#x884C;&#x73AF;&#x5883;&#xFF1A;&#x5EFA;&#x8BAE;&#x9009;&#x62E9; <a href="http://nodejs.org/" target="_blank">LTS &#x7248;&#x672C;</a>&#xFF0C;&#x6700;&#x4F4E;&#x8981;&#x6C42; 8.x&#x3002;</li>
 </ul>
-<h4 id="&#x521D;&#x59CB;&#x5316;">&#x521D;&#x59CB;&#x5316;</h4>
+<h4 id="&#x521D;&#x59CB;&#x5316;"><a name="&#x521D;&#x59CB;&#x5316;" class="anchor-navigation-ex-anchor" href="#&#x521D;&#x59CB;&#x5316;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x521D;&#x59CB;&#x5316;</h4>
 <p>&#x6211;&#x4EEC;&#x63A8;&#x8350;&#x76F4;&#x63A5;&#x4F7F;&#x7528;&#x811A;&#x624B;&#x67B6;&#xFF0C;&#x53EA;&#x9700;&#x51E0;&#x6761;&#x7B80;&#x5355;&#x6307;&#x4EE4;&#xFF0C;&#x5373;&#x53EF;&#x5FEB;&#x901F;&#x751F;&#x6210;&#x9879;&#x76EE;&#xFF08;<code>npm &gt;=6.1.0</code>&#xFF09;</p>
 <pre><code class="lang-markdown">$ mkdir egg-example &amp;&amp; cd egg-example
 $ npm init egg --type=simple
@@ -989,8 +993,8 @@ $ npm i
 <pre><code class="lang-markdown">$ npm run dev
 $ open http://localhost:7001
 </code></pre>
-<h3 id="http">HTTP</h3>
-<h4 id="&#x5728;-egg-&#x4E2D;&#x5B9A;&#x4E49;-restful-&#x98CE;&#x683C;&#x7684;-url">&#x5728; Egg &#x4E2D;&#x5B9A;&#x4E49; RESTful &#x98CE;&#x683C;&#x7684; URL</h4>
+<h3 id="http"><a name="http" class="anchor-navigation-ex-anchor" href="#http"><i class="fa fa-link" aria-hidden="true"></i></a>HTTP</h3>
+<h4 id="&#x5728;-egg-&#x4E2D;&#x5B9A;&#x4E49;-restful-&#x98CE;&#x683C;&#x7684;-url"><a name="&#x5728;-egg-&#x4E2D;&#x5B9A;&#x4E49;-restful-&#x98CE;&#x683C;&#x7684;-url" class="anchor-navigation-ex-anchor" href="#&#x5728;-egg-&#x4E2D;&#x5B9A;&#x4E49;-restful-&#x98CE;&#x683C;&#x7684;-url"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5728; Egg &#x4E2D;&#x5B9A;&#x4E49; RESTful &#x98CE;&#x683C;&#x7684; URL</h4>
 <p>&#x5982;&#x679C;&#x60F3;&#x901A;&#x8FC7; RESTful &#x7684;&#x65B9;&#x5F0F;&#x6765;&#x5B9A;&#x4E49;&#x8DEF;&#x7531;&#xFF0C; &#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x4E86; <code>app.resources(&apos;routerName&apos;, &apos;pathMatch&apos;, controller)</code> &#x5FEB;&#x901F;&#x5728;&#x4E00;&#x4E2A;&#x8DEF;&#x5F84;&#x4E0A;&#x751F;&#x6210; <a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete" target="_blank">CRUD</a> &#x8DEF;&#x7531;&#x7ED3;&#x6784;&#x3002;</p>
 <pre><code class="lang-js"><span class="hljs-comment">// app/router.js</span>
 <span class="hljs-built_in">module</span>.exports = app =&gt; {
@@ -1070,7 +1074,7 @@ exports.update = <span class="hljs-keyword">async</span> () =&gt; {};
 exports.destroy = <span class="hljs-keyword">async</span> () =&gt; {};
 </code></pre>
 <p>&#x5982;&#x679C;&#x6211;&#x4EEC;&#x4E0D;&#x9700;&#x8981;&#x5176;&#x4E2D;&#x7684;&#x67D0;&#x51E0;&#x4E2A;&#x65B9;&#x6CD5;&#xFF0C;&#x53EF;&#x4EE5;&#x4E0D;&#x7528;&#x5728; <code>posts.js</code> &#x91CC;&#x9762;&#x5B9E;&#x73B0;&#xFF0C;&#x8FD9;&#x6837;&#x5BF9;&#x5E94; URL &#x8DEF;&#x5F84;&#x4E5F;&#x4E0D;&#x4F1A;&#x6CE8;&#x518C;&#x5230; Router&#x3002;</p>
-<h4 id="&#x83B7;&#x53D6;&#x67E5;&#x8BE2;&#x53C2;&#x6570;">&#x83B7;&#x53D6;&#x67E5;&#x8BE2;&#x53C2;&#x6570;</h4>
+<h4 id="&#x83B7;&#x53D6;&#x67E5;&#x8BE2;&#x53C2;&#x6570;"><a name="&#x83B7;&#x53D6;&#x67E5;&#x8BE2;&#x53C2;&#x6570;" class="anchor-navigation-ex-anchor" href="#&#x83B7;&#x53D6;&#x67E5;&#x8BE2;&#x53C2;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x83B7;&#x53D6;&#x67E5;&#x8BE2;&#x53C2;&#x6570;</h4>
 <ul>
 <li><p>&#x83B7;&#x53D6;url&#x95EE;&#x53F7;&#x53C2;&#x6570;&#xFF1A;<strong>ctx.query</strong></p>
 </li>
@@ -1087,7 +1091,7 @@ exports.destroy = <span class="hljs-keyword">async</span> () =&gt; {};
 <li><p>&#x83B7;&#x53D6;header&#x53C2;&#x6570;&#xFF1A;<strong>ctx.header</strong></p>
 </li>
 </ul>
-<h4 id="&#x6821;&#x9A8C;&#x67E5;&#x8BE2;&#x53C2;&#x6570;-ctxvalidate">&#x6821;&#x9A8C;&#x67E5;&#x8BE2;&#x53C2;&#x6570; ctx.validate</h4>
+<h4 id="&#x6821;&#x9A8C;&#x67E5;&#x8BE2;&#x53C2;&#x6570;-ctxvalidate"><a name="&#x6821;&#x9A8C;&#x67E5;&#x8BE2;&#x53C2;&#x6570;-ctxvalidate" class="anchor-navigation-ex-anchor" href="#&#x6821;&#x9A8C;&#x67E5;&#x8BE2;&#x53C2;&#x6570;-ctxvalidate"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6821;&#x9A8C;&#x67E5;&#x8BE2;&#x53C2;&#x6570; ctx.validate</h4>
 <ul>
 <li><p>ctx.validate(createRule, ctx.request.body)        // &#x53C2;&#x6570;&#xFF1A;&#x6821;&#x9A8C;&#x89C4;&#x5219;&#x3001;&#x88AB;&#x6821;&#x9A8C;&#x6570;&#x636E;</p>
 </li>
@@ -1130,7 +1134,7 @@ exports.destroy = <span class="hljs-keyword">async</span> () =&gt; {};
 </ul>
 </li>
 </ul>
-<h4 id="egg&#x4E2D;&#x4F7F;&#x7528;jwt&#x6821;&#x9A8C;">Egg&#x4E2D;&#x4F7F;&#x7528;<a href="Jwt.html">JWT</a>&#x6821;&#x9A8C;</h4>
+<h4 id="egg&#x4E2D;&#x4F7F;&#x7528;jwt&#x6821;&#x9A8C;"><a name="egg&#x4E2D;&#x4F7F;&#x7528;jwt&#x6821;&#x9A8C;" class="anchor-navigation-ex-anchor" href="#egg&#x4E2D;&#x4F7F;&#x7528;jwt&#x6821;&#x9A8C;"><i class="fa fa-link" aria-hidden="true"></i></a>Egg&#x4E2D;&#x4F7F;&#x7528;<a href="Jwt.html">JWT</a>&#x6821;&#x9A8C;</h4>
 <ul>
 <li><p>&#x4FEE;&#x6539;&#x914D;&#x7F6E;&#xFF1A;config/config.default.js</p>
 <pre><code class="lang-js">exports.security = {
@@ -1194,17 +1198,18 @@ exports.verifyToken = <span class="hljs-function"><span class="hljs-keyword">fun
 </code></pre>
 </li>
 </ul>
-<h4 id="&#x5728;egg&#x4E2D;&#x5904;&#x7406;&#x5F02;&#x5E38;&#x67E5;&#x8BE2;">&#x5728;Egg&#x4E2D;&#x5904;&#x7406;&#x5F02;&#x5E38;&#x67E5;&#x8BE2;</h4>
+<h4 id="&#x5728;egg&#x4E2D;&#x5904;&#x7406;&#x5F02;&#x5E38;&#x67E5;&#x8BE2;"><a name="&#x5728;egg&#x4E2D;&#x5904;&#x7406;&#x5F02;&#x5E38;&#x67E5;&#x8BE2;" class="anchor-navigation-ex-anchor" href="#&#x5728;egg&#x4E2D;&#x5904;&#x7406;&#x5F02;&#x5E38;&#x67E5;&#x8BE2;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5728;Egg&#x4E2D;&#x5904;&#x7406;&#x5F02;&#x5E38;&#x67E5;&#x8BE2;</h4>
 <ul>
 <li>&#x53C2;&#x8003;&#xFF1A;<a href="RESTful.html#restful_status">RESTful API &#x5E38;&#x7528;&#x72B6;&#x6001;&#x7801;</a></li>
 <li>&#x53C2;&#x6570;&#x6821;&#x9A8C;&#x5931;&#x8D25;&#xFF1A;</li>
 <li>&#x67E5;&#x8BE2;&#x7ED3;&#x679C;&#x4E0D;&#x5B58;&#x5728;&#xFF1A;<code>ctx.throw(404, &apos;&#x7528;&#x6237;&#x4E0D;&#x5B58;&#x5728;&apos;)</code></li>
 </ul>
-<h4 id="&#x5E38;&#x89C1;&#x95EE;&#x9898;">&#x5E38;&#x89C1;&#x95EE;&#x9898;</h4>
+<h4 id="&#x5E38;&#x89C1;&#x95EE;&#x9898;"><a name="&#x5E38;&#x89C1;&#x95EE;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x5E38;&#x89C1;&#x95EE;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5E38;&#x89C1;&#x95EE;&#x9898;</h4>
 <p>1&#x3001;<a href="https://blog.csdn.net/qq_41966938/article/details/81131058" target="_blank">&#x5173;&#x4E8E;eggjs&#x5728;Linux&#x4E0A;&#x542F;&#x52A8;&#x65F6;&#x62A5;&#x9519;&#x7684;&#x95EE;&#x9898;&#x53CA;&#x89E3;&#x51B3;&#x529E;&#x6CD5;</a></p>
 <p>2&#x3001;&#x73AF;&#x5883;&#x53D8;&#x91CF;NODE_ENV&#x91CD;&#x542F;&#x540E;&#x5931;&#x6548;
    1) vim /etc/profile
-   2) NODE_ENV=production</p>
+   2) NODE_ENV=production
+   3) source /etc/profile</p>
 
                                 
                                 </section>
@@ -1248,7 +1253,7 @@ exports.verifyToken = <span class="hljs-function"><span class="hljs-keyword">fun
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Egg.js","level":"1.4.8","depth":2,"next":{"title":"Nginx","level":"1.4.9","depth":2,"path":"server/Nginx.md","ref":"server/Nginx.md","articles":[]},"previous":{"title":"Koa","level":"1.4.7","depth":2,"path":"server/Koa.md","ref":"server/Koa.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"./website.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"迷图网","gitbook":"*"},"file":{"path":"server/Egg.md","mtime":"2021-04-18T13:50:27.290Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-04-24T10:44:28.774Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Egg.js","level":"1.4.8","depth":2,"next":{"title":"Nginx","level":"1.4.9","depth":2,"path":"server/Nginx.md","ref":"server/Nginx.md","articles":[]},"previous":{"title":"Koa","level":"1.4.7","depth":2,"path":"server/Koa.md","ref":"server/Koa.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchor-navigation-ex"],"styles":{"website":"./website.css"},"pluginsConfig":{"anchor-navigation-ex":{"mode":"float","pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"isRewritePageTitle":true,"showLevel":false,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","showGoTop":true,"isShowTocTitleIcon":true,"printLog":false,"multipleH1":true,"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"迷图网","gitbook":"*"},"file":{"path":"server/Egg.md","mtime":"2021-08-27T07:37:09.612Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-06-16T08:22:49.855Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

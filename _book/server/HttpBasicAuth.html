@@ -17,6 +17,10 @@
     
             
                 
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -972,13 +976,13 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="httpbasicauth-&#x6821;&#x9A8C;">HttpBasicAuth &#x6821;&#x9A8C;</h1>
-<h4 id="&#x4F9D;&#x8D56;">&#x4F9D;&#x8D56;</h4>
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#httpbasicauth-&#x6821;&#x9A8C;"><b></b>HttpBasicAuth &#x6821;&#x9A8C;</a></li><ul><li><span class="title-icon "></span><a href="#&#x670D;&#x52A1;&#x7AEF;"><b></b>&#x670D;&#x52A1;&#x7AEF;</a></li><li><span class="title-icon "></span><a href="#&#x5BA2;&#x6237;&#x7AEF;"><b></b>&#x5BA2;&#x6237;&#x7AEF;</a></li></ul></ul></div><a href="#httpbasicauth-&#x6821;&#x9A8C;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="httpbasicauth-&#x6821;&#x9A8C;"><a name="httpbasicauth-&#x6821;&#x9A8C;" class="anchor-navigation-ex-anchor" href="#httpbasicauth-&#x6821;&#x9A8C;"><i class="fa fa-link" aria-hidden="true"></i></a>HttpBasicAuth &#x6821;&#x9A8C;</h1>
+<h4 id="&#x4F9D;&#x8D56;"><a name="&#x4F9D;&#x8D56;" class="anchor-navigation-ex-anchor" href="#&#x4F9D;&#x8D56;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4F9D;&#x8D56;</h4>
 <pre><code class="lang-js"><span class="hljs-keyword">const</span> auth = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;basic-auth&apos;</span>);
 <span class="hljs-keyword">const</span> jwt = <span class="hljs-built_in">require</span>(<span class="hljs-string">&apos;jsonwebtoken&apos;</span>);
 </code></pre>
-<h2 id="&#x670D;&#x52A1;&#x7AEF;">&#x670D;&#x52A1;&#x7AEF;</h2>
-<h4 id="&#x751F;&#x6210;token">&#x751F;&#x6210;Token</h4>
+<h2 id="&#x670D;&#x52A1;&#x7AEF;"><a name="&#x670D;&#x52A1;&#x7AEF;" class="anchor-navigation-ex-anchor" href="#&#x670D;&#x52A1;&#x7AEF;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x670D;&#x52A1;&#x7AEF;</h2>
+<h4 id="&#x751F;&#x6210;token"><a name="&#x751F;&#x6210;token" class="anchor-navigation-ex-anchor" href="#&#x751F;&#x6210;token"><i class="fa fa-link" aria-hidden="true"></i></a>&#x751F;&#x6210;Token</h4>
 <ul>
 <li>&#x7528;&#x6237;&#x767B;&#x5F55;&#x6210;&#x529F;&#x540E;&#xFF0C;&#x7B49;&#x5230;&#x6570;&#x636E;user</li>
 <li>&#x52A0;&#x5BC6;&#x65B9;&#x6CD5;</li>
@@ -997,7 +1001,7 @@ exports.getToken = <span class="hljs-function"><span class="hljs-keyword">functi
 </ul>
 <pre><code class="lang-js"><span class="hljs-keyword">const</span> token = getToken(user)
 </code></pre>
-<h4 id="&#x540E;&#x7AEF;&#x8FD4;&#x56DE;token">&#x540E;&#x7AEF;&#x8FD4;&#x56DE;Token</h4>
+<h4 id="&#x540E;&#x7AEF;&#x8FD4;&#x56DE;token"><a name="&#x540E;&#x7AEF;&#x8FD4;&#x56DE;token" class="anchor-navigation-ex-anchor" href="#&#x540E;&#x7AEF;&#x8FD4;&#x56DE;token"><i class="fa fa-link" aria-hidden="true"></i></a>&#x540E;&#x7AEF;&#x8FD4;&#x56DE;Token</h4>
 <pre><code class="lang-js"><span class="hljs-comment">// &#x63A5;&#x53E3;&#x8FD4;&#x56DE;</span>
 res.json({
     code: <span class="hljs-number">0</span>,
@@ -1012,10 +1016,10 @@ res.json({
 <span class="hljs-comment">// &#x4FDD;&#x5B58;token</span>
 Storage.set(ENV.storageToken, res.data.token);
 </code></pre>
-<h4 id="&#x63A5;&#x53E3;&#x4FDD;&#x62A4;">&#x63A5;&#x53E3;&#x4FDD;&#x62A4;</h4>
+<h4 id="&#x63A5;&#x53E3;&#x4FDD;&#x62A4;"><a name="&#x63A5;&#x53E3;&#x4FDD;&#x62A4;" class="anchor-navigation-ex-anchor" href="#&#x63A5;&#x53E3;&#x4FDD;&#x62A4;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x63A5;&#x53E3;&#x4FDD;&#x62A4;</h4>
 <pre><code class="lang-js">router.post(<span class="hljs-string">&apos;/api/v1/user/current&apos;</span>, verifyToken, controller.access.current);
 </code></pre>
-<h4 id="&#x9A8C;&#x8BC1;token---&#x4E2D;&#x95F4;&#x4EF6;">&#x9A8C;&#x8BC1;Token - &#x4E2D;&#x95F4;&#x4EF6;</h4>
+<h4 id="&#x9A8C;&#x8BC1;token---&#x4E2D;&#x95F4;&#x4EF6;"><a name="&#x9A8C;&#x8BC1;token---&#x4E2D;&#x95F4;&#x4EF6;" class="anchor-navigation-ex-anchor" href="#&#x9A8C;&#x8BC1;token---&#x4E2D;&#x95F4;&#x4EF6;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x9A8C;&#x8BC1;Token - &#x4E2D;&#x95F4;&#x4EF6;</h4>
 <pre><code class="lang-js"><span class="hljs-comment">// &#x6821;&#x9A8C;Token</span>
 exports.verifyToken = <span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">ctx, next</span>) </span>{
   <span class="hljs-keyword">const</span> result = auth(ctx.request);
@@ -1028,11 +1032,11 @@ exports.verifyToken = <span class="hljs-keyword">async</span> <span class="hljs-
   <span class="hljs-keyword">await</span> next();
 };
 </code></pre>
-<h2 id="&#x5BA2;&#x6237;&#x7AEF;">&#x5BA2;&#x6237;&#x7AEF;</h2>
-<h4 id="&#x751F;&#x6210;token&#x5E76;&#x4E0A;&#x4F20;">&#x751F;&#x6210;Token&#x5E76;&#x4E0A;&#x4F20;</h4>
+<h2 id="&#x5BA2;&#x6237;&#x7AEF;"><a name="&#x5BA2;&#x6237;&#x7AEF;" class="anchor-navigation-ex-anchor" href="#&#x5BA2;&#x6237;&#x7AEF;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5BA2;&#x6237;&#x7AEF;</h2>
+<h4 id="&#x751F;&#x6210;token&#x5E76;&#x4E0A;&#x4F20;"><a name="&#x751F;&#x6210;token&#x5E76;&#x4E0A;&#x4F20;" class="anchor-navigation-ex-anchor" href="#&#x751F;&#x6210;token&#x5E76;&#x4E0A;&#x4F20;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x751F;&#x6210;Token&#x5E76;&#x4E0A;&#x4F20;</h4>
 <pre><code class="lang-js">newOptions.headers[<span class="hljs-string">&apos;Authorization&apos;</span>] = <span class="hljs-string">&apos;Basic &apos;</span> + Base64.encode(Storage.get(ENV.storageToken) + <span class="hljs-string">&apos;:&apos;</span>)
 </code></pre>
-<h4 id="&#x524D;&#x7AEF;&#x5904;&#x7406;token&#x8FC7;&#x671F;">&#x524D;&#x7AEF;&#x5904;&#x7406;Token&#x8FC7;&#x671F;</h4>
+<h4 id="&#x524D;&#x7AEF;&#x5904;&#x7406;token&#x8FC7;&#x671F;"><a name="&#x524D;&#x7AEF;&#x5904;&#x7406;token&#x8FC7;&#x671F;" class="anchor-navigation-ex-anchor" href="#&#x524D;&#x7AEF;&#x5904;&#x7406;token&#x8FC7;&#x671F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x524D;&#x7AEF;&#x5904;&#x7406;Token&#x8FC7;&#x671F;</h4>
 <ul>
 <li>Admin</li>
 </ul>
@@ -1121,7 +1125,7 @@ exports.verifyToken = <span class="hljs-keyword">async</span> <span class="hljs-
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"HttpBasicAuth","level":"1.4.4","depth":2,"next":{"title":"角色鉴权","level":"1.4.5","depth":2,"path":"server/Scope.md","ref":"server/Scope.md","articles":[]},"previous":{"title":"Jwt","level":"1.4.3","depth":2,"path":"server/Jwt.md","ref":"server/Jwt.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"./website.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"迷图网","gitbook":"*"},"file":{"path":"server/HttpBasicAuth.md","mtime":"2019-08-17T14:48:14.416Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-04-24T10:44:28.774Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"HttpBasicAuth","level":"1.4.4","depth":2,"next":{"title":"角色鉴权","level":"1.4.5","depth":2,"path":"server/Scope.md","ref":"server/Scope.md","articles":[]},"previous":{"title":"Jwt","level":"1.4.3","depth":2,"path":"server/Jwt.md","ref":"server/Jwt.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchor-navigation-ex"],"styles":{"website":"./website.css"},"pluginsConfig":{"anchor-navigation-ex":{"mode":"float","pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"isRewritePageTitle":true,"showLevel":false,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","showGoTop":true,"isShowTocTitleIcon":true,"printLog":false,"multipleH1":true,"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"迷图网","gitbook":"*"},"file":{"path":"server/HttpBasicAuth.md","mtime":"2019-08-17T14:48:14.416Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-06-16T08:22:49.855Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

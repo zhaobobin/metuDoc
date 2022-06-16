@@ -6,12 +6,12 @@
 
 * [安全](Safe.md)
 
-- [RESTful API](server/RESTful.md)
-- [Jwt](server/Jwt.md)
-- [HttpBasicAuth](server/HttpBasicAuth.md)
-- [角色鉴权](server/Scope.md)
-- [Mongodb](server/Mongodb.md)
-- [Koa](server/Koa.md)
+- [RESTful API](RESTful.md)
+- [Jwt](Jwt.md)
+- [HttpBasicAuth](HttpBasicAuth.md)
+- [角色鉴权](Scope.md)
+- [Mongodb](Mongodb.md)
+- [Koa](Koa.md)
 - [Egg](Egg.md)
 
 

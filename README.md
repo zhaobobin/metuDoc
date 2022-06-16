@@ -1,9 +1,10 @@
 <div align="center">
   <a href="https://www.metuwang.com/" target="_blank" rel="noopener noreferrer nofollow">
-    <img src="http://www.metuwang.com/favicon.png" width="auto" height="32px" alt="去投网logo" style=" position: relative; right: 5px;top:6px;" />
+    <img src="https://www.metuwang.com/images/favicon.png" width="auto" height="32px" alt="去投网logo" style=" position: relative; right: 5px;top:6px;" />
     <strong style="color: #333; font-size: 28px; line-height: 32px;">迷图网</strong>
   </a>
 </div>
+
 
 ## 
 
@@ -105,10 +106,11 @@
 
 }
 ```
+<!-- npm install -g gitbook-cli -->
 
 <!-- Gitbook 一键部署至 GitHub Pages -->
 
-<!-- 1. npm install g gh-pages -->
+<!-- 1. npm install -g gh-pages -->
 
 <!-- 2. gitbook init -->
 

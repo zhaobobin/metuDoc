@@ -20,19 +20,27 @@ Nginx的安装依赖于以下三个包，意思就是在安装Nginx之前首先�
 
 2、安装Nginx依赖项和Nginx
 
-　　1 使用yum安装nginx需要包括Nginx的库，安装Nginx的库
+　　1)  使用yum安装nginx需要包括Nginx的库，安装Nginx的库
 
-　　　　#rpm -Uvh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
-
-　　2 使用下面命令安装nginx
-
-　　　　#yum install nginx
-
-　　3 启动Nginx
-
-　　　　#service nginx start
+```
+rpm -Uvh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0.el7.ngx.noarch.rpm
+```
 
 
+
+　　2)  使用下面命令安装nginx
+
+```
+yum install nginx
+```
+
+
+
+　　3)  启动Nginx
+
+```
+service nginx start
+```
 
 启动失败：
 
@@ -52,6 +60,8 @@ tcp6       0      0 :::80                   :::*                    LISTEN      
 
 3、直接浏览器访问localhost就会出现Nginx的欢迎界面表示你安装成功了，否则就是安装失败了
 
+​		通过systemctl start firewalld开启防火墙，没有任何提示即开启成功。
+
 　　查看已开放的端口：firewall-cmd --list-ports
 
 　　默认80端口加入防火墙访问白名单中：firewall-cmd --permanent --zone=public --add-port=80/tcp
@@ -69,7 +79,7 @@ CentOS安装Nginx后，安装在了 /etc/nginx/目录下，你可以打开/etc/n
 以上安装方法nginx的配置文件位于
 
 ```
-/usr/local/nginx/conf/nginx.conf
+/etc/nginx/nginx.conf
 ```
 
 Nginx配置文件常见结构的从外到内依次是「http」「server」「location」等等，缺省的继承关系是从外到内，也就是说内层块会自动获取外层块的值作为缺省值。
@@ -228,7 +238,7 @@ location / {
 
  
 
-## 附注：配置完之后可以使用测试命令验证下配置是否正确
+备注：配置完之后可以使用测试命令验证下配置是否正确
 
 ```
 nginx -t
@@ -285,45 +295,36 @@ http {
     gzip_types text/plain text/css text/javascript application/json application/javascript application/x-javascript application/xml; #设置需要压缩的数>据格式
     gzip_vary on;
 
+    # SSL证书
+    server {
+        listen 443 ssl;
+        #配置HTTPS的默认访问端口为443。
+        #如果未在此处配置HTTPS的默认访问端口，可能会造成Nginx无法启动。
+        #如果您使用Nginx 1.15.0及以上版本，请使用listen 443 ssl代替listen 443和ssl on。
+        server_name metuwang.com; #需要将yourdomain.com替换成证书绑定的域名。
+        root /root/www;
+        index index.html index.htm;
+        ssl_certificate conf/cert/6234103_metuwang.com.pem;  #需要将cert-file-name.pem替换成已上传的证书文件的名称。
+        ssl_certificate_key conf/cert/6234103_metuwang.com.key; #需要将cert-file-name.key替换成已上传的证书密钥文件的名称。
+        ssl_session_timeout 5m;
+        ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE:ECDH:AES:HIGH:!NULL:!aNULL:!MD5:!ADH:!RC4;
+        #表示使用的加密套件的类型。
+        ssl_protocols TLSv1 TLSv1.1 TLSv1.2; #表示使用的TLS协议的类型。
+        ssl_prefer_server_ciphers on;
+        rewrite ^(.*)$ https://$host$1; #将所有HTTP请求通过rewrite指令重定向到HTTPS。
+        location / {
+            root html;  #站点目录。
+            index index.html index.htm;
+        }
+    }
+
     #虚拟主机配置
     server {
         listen       80 default_server; #侦听80端口,并为默认服务,default_server只能有一个
         server_name  www.metuwang.com metuwang.com; #服务域名,可以有多个,用空格隔开
-        root /root/www;
-        index index.html;
-
-        location ^~ / {
-                try_files $uri $uri/ /index.html;
-        }
-       
-        location ^~ /api/{
-            proxy_pass http://127.0.0.1:7001;
-            proxy_send_timeout 1800;
-            proxy_read_timeout 1800;
-            proxy_connect_timeout 1800;
-            client_max_body_size 2048m;
-            proxy_http_version 1.1;
-            proxy_set_header Upgrade $http_upgrade;
-            proxy_set_header Connection "Upgrade";
-            proxy_set_header  Host              $http_host;   # required for docker client's sake
-            proxy_set_header  X-Real-IP         $remote_addr; # pass on real client's IP
-            proxy_set_header  X-Forwarded-For   $proxy_add_x_forwarded_for;
-            proxy_set_header  X-Forwarded-Proto $scheme;
-        }
-        # 图片缓存时间设置
-        location ~ .*.(gif|jpg|jpeg|png|bmp|swf)$ {
-            expires 10d;
-        }
-        # JS和CSS缓存时间设置
-        location ~ .*.(js|css)?$ {
-            expires 1h;
-        }
-        # 404定义错误提示页面
-        error_page 404             /404.html;
-        # 500定义错误提示页面
-        error_page   500 502 503 504 /50x.html;
-        
+        return 301 https://$server_name$request_uri;
     }
+
     server {
         listen       80;
         server_name  admin.metuwang.com;
@@ -378,6 +379,11 @@ nginx -t
 nginx
 ```
 
+####重启加载配置文件
+```
+nginx -t -c /etc/nginx/nginx.conf
+```
+
 ####重启
 
 ```
@@ -388,11 +394,6 @@ or
 
 ```
 nginx -s reload
-```
-
-####重启加载配置文件
-```
-nginx -t -c /etc/nginx/nginx.conf
 ```
 
 #### 停止

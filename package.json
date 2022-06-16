@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/zhaobobin/metuDoc/issues"
   },
-  "homepage": "https://github.com/zhaobobin/metuDoc#readme"
+  "homepage": "https://github.com/zhaobobin/metuDoc#readme",
+  "dependencies": {
+    "gitbook-plugin-anchor-navigation": "^0.0.1",
+    "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
+    "gitbook-plugin-anchors": "^0.7.1"
+  }
 }

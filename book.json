@@ -2,5 +2,17 @@
   "title": "迷图网",
   "styles": {
     "website": "./website.css"
+  },
+  "plugins": ["anchor-navigation-ex"],
+  "pluginsConfig": {
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "showGoTop": true,
+      "isRewritePageTitle": true,
+      "isShowTocTitleIcon": true,
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right"
+    }
   }
 }
