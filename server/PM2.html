@@ -17,6 +17,10 @@
     
             
                 
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
                 
             
@@ -972,25 +976,29 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h2 id="pm2">PM2</h2>
-<h4 id="&#x5B89;&#x88C5;">&#x5B89;&#x88C5;</h4>
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><ul><li><span class="title-icon "></span><a href="#pm2"><b></b>PM2</a></li></ul></ul></div><a href="#" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h2 id="pm2"><a name="pm2" class="anchor-navigation-ex-anchor" href="#pm2"><i class="fa fa-link" aria-hidden="true"></i></a>PM2</h2>
+<h4 id="&#x5B89;&#x88C5;"><a name="&#x5B89;&#x88C5;" class="anchor-navigation-ex-anchor" href="#&#x5B89;&#x88C5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5B89;&#x88C5;</h4>
 <pre><code>npm install -g pm2
-</code></pre><h4 id="&#x521B;&#x5EFA;&#x8F6F;&#x8FDE;&#x63A5;">&#x521B;&#x5EFA;&#x8F6F;&#x8FDE;&#x63A5;</h4>
+</code></pre><h4 id="&#x521B;&#x5EFA;&#x8F6F;&#x8FDE;&#x63A5;"><a name="&#x521B;&#x5EFA;&#x8F6F;&#x8FDE;&#x63A5;" class="anchor-navigation-ex-anchor" href="#&#x521B;&#x5EFA;&#x8F6F;&#x8FDE;&#x63A5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x521B;&#x5EFA;&#x8F6F;&#x8FDE;&#x63A5;</h4>
 <pre><code>ln -s /usr/local/node-v10.15.3-linux-x64/bin/pm2 /usr/local/bin/pm2
-</code></pre><h4 id="&#x542F;&#x52A8;express&#x670D;&#x52A1;">&#x542F;&#x52A8;express&#x670D;&#x52A1;</h4>
+</code></pre><h4 id="&#x542F;&#x52A8;express&#x670D;&#x52A1;"><a name="&#x542F;&#x52A8;express&#x670D;&#x52A1;" class="anchor-navigation-ex-anchor" href="#&#x542F;&#x52A8;express&#x670D;&#x52A1;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x542F;&#x52A8;express&#x670D;&#x52A1;</h4>
 <p>--watch&#x53C2;&#x6570;&#xFF0C;&#x610F;&#x5473;&#x7740;&#x5F53;&#x4F60;&#x7684;express&#x5E94;&#x7528;&#x4EE3;&#x7801;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x65F6;&#xFF0C;pm2&#x4F1A;&#x5E2E;&#x4F60;&#x91CD;&#x542F;&#x670D;&#x52A1;</p>
 <pre><code>pm2 start /root/metuServer/server.js --watch
 pm2 list
 pm2 save
-</code></pre><h4 id="&#x8BBE;&#x7F6E;pm2-&#x5F00;&#x673A;&#x542F;&#x52A8;">&#x8BBE;&#x7F6E;pm2 &#x5F00;&#x673A;&#x542F;&#x52A8;</h4>
+</code></pre><h4 id="&#x8BBE;&#x7F6E;pm2-&#x5F00;&#x673A;&#x542F;&#x52A8;"><a name="&#x8BBE;&#x7F6E;pm2-&#x5F00;&#x673A;&#x542F;&#x52A8;" class="anchor-navigation-ex-anchor" href="#&#x8BBE;&#x7F6E;pm2-&#x5F00;&#x673A;&#x542F;&#x52A8;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8BBE;&#x7F6E;pm2 &#x5F00;&#x673A;&#x542F;&#x52A8;</h4>
 <pre><code>pm2 startup
-</code></pre><h4 id="&#x9519;&#x8BEF;&#x65E5;&#x5FD7;">&#x9519;&#x8BEF;&#x65E5;&#x5FD7;</h4>
+</code></pre><h4 id="&#x9519;&#x8BEF;&#x65E5;&#x5FD7;"><a name="&#x9519;&#x8BEF;&#x65E5;&#x5FD7;" class="anchor-navigation-ex-anchor" href="#&#x9519;&#x8BEF;&#x65E5;&#x5FD7;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x9519;&#x8BEF;&#x65E5;&#x5FD7;</h4>
 <pre><code>pm2 log
-</code></pre><h4 id="&#x91CD;&#x542F;">&#x91CD;&#x542F;</h4>
+</code></pre><h4 id="&#x91CD;&#x542F;"><a name="&#x91CD;&#x542F;" class="anchor-navigation-ex-anchor" href="#&#x91CD;&#x542F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x91CD;&#x542F;</h4>
 <pre><code>pm2 reload all
-</code></pre><h4 id="&#x5378;&#x8F7D;&#x670D;&#x52A1;">&#x5378;&#x8F7D;&#x670D;&#x52A1;</h4>
+</code></pre><h4 id="&#x5378;&#x8F7D;&#x670D;&#x52A1;"><a name="&#x5378;&#x8F7D;&#x670D;&#x52A1;" class="anchor-navigation-ex-anchor" href="#&#x5378;&#x8F7D;&#x670D;&#x52A1;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5378;&#x8F7D;&#x670D;&#x52A1;</h4>
 <pre><code>pm2 service uninstall
-</code></pre><h4 id="&#x5F02;&#x5E38;&#x95EE;&#x9898;">&#x5F02;&#x5E38;&#x95EE;&#x9898;</h4>
+</code></pre><h4 id="&#x8FD0;&#x884C;&#x591A;&#x4E2A;&#x9879;&#x76EE;"><a name="&#x8FD0;&#x884C;&#x591A;&#x4E2A;&#x9879;&#x76EE;" class="anchor-navigation-ex-anchor" href="#&#x8FD0;&#x884C;&#x591A;&#x4E2A;&#x9879;&#x76EE;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8FD0;&#x884C;&#x591A;&#x4E2A;&#x9879;&#x76EE;</h4>
+<pre><code>pm2 start /root/api/server/server.js --watch
+pm2 list
+pm2 save
+</code></pre><h4 id="&#x5F02;&#x5E38;&#x95EE;&#x9898;"><a name="&#x5F02;&#x5E38;&#x95EE;&#x9898;" class="anchor-navigation-ex-anchor" href="#&#x5F02;&#x5E38;&#x95EE;&#x9898;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5F02;&#x5E38;&#x95EE;&#x9898;</h4>
 <p>1) <a href="https://github.com/eggjs/egg/issues/4531" target="_blank">mongoose&#x5347;&#x7EA7;&#x5BFC;&#x81F4;&#x94FE;&#x63A5;&#x5931;&#x8D25;</a></p>
 <pre><code>exports.mongoose = {
     url:
@@ -1046,7 +1054,7 @@ pm2 save
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"PM2","level":"1.4.11","depth":2,"next":{"title":"客户端","level":"1.5","depth":1,"path":"client/README.md","ref":"client/README.md","articles":[]},"previous":{"title":"Next","level":"1.4.10","depth":2,"path":"server/Next.md","ref":"server/Next.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"./website.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"迷图网","gitbook":"*"},"file":{"path":"server/PM2.md","mtime":"2021-05-18T06:56:40.586Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-05-18T06:57:11.717Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"PM2","level":"1.4.11","depth":2,"next":{"title":"客户端","level":"1.5","depth":1,"path":"client/README.md","ref":"client/README.md","articles":[]},"previous":{"title":"Next","level":"1.4.10","depth":2,"path":"server/Next.md","ref":"server/Next.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchor-navigation-ex"],"styles":{"website":"./website.css"},"pluginsConfig":{"anchor-navigation-ex":{"mode":"float","pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"isRewritePageTitle":true,"showLevel":false,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right","showGoTop":true,"isShowTocTitleIcon":true,"printLog":false,"multipleH1":true,"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"迷图网","gitbook":"*"},"file":{"path":"server/PM2.md","mtime":"2021-12-02T09:02:40.716Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-06-16T08:22:49.855Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
